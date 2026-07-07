@@ -1,0 +1,44 @@
+.node {
+  width: 25px;
+  height: 25px;
+  border: 1px solid lightgray;
+  box-sizing: border-box;
+  background-color: white;
+  transition:
+    background-color 0.3s ease,
+    outline-color 0.3s ease,
+    outline-width 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.node-start {
+  background-color: green;
+}
+
+.node-finish {
+  background-color: red;
+}
+
+.node-wall {
+  background-color: darkgray;
+}
+
+.node-current {
+  outline: 2px solid #ff9800;
+  outline-offset: -2px;
+  box-shadow: inset 0 0 0 1px rgba(255, 152, 0, 0.5);
+  z-index: 1;
+}
+
+.node-visited {
+  background-color: rgba(0, 217, 255, 0.75);
+}
+
+.node-shortest-path {
+  background-color: rgba(255, 204, 0, 0.85);
+}
+
+.node-visited.node-shortest-path {
+  background-color: rgba(255, 204, 0, 0.85);
+}
