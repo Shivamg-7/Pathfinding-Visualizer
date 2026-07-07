@@ -19,5 +19,5 @@ To bypass the performance bottlenecks of triggering thousands of rapid React re-
 ## 🛠️ Tech Stack
 
 * **Frontend:** React (Vite)
-* **Styling:** Vanilla CSS (Flexbox, Grid, Custom Keyframes & Crossfades)
-* **Logic:** Vanilla JavaScript Graph Traversal (Manhattan Distance Heuristic)
+* **Styling:** CSS (Flexbox, Grid, Custom Keyframes & Crossfades)
+* **Logic:** JavaScript Graph Traversal (Manhattan Distance Heuristic)
